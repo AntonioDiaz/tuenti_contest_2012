@@ -1,0 +1,14 @@
+//text with the letters asociated to each key.
+//format of the line: key:letter1,letter2,letter3
+0: ,1
+1:a,b,c,2
+2:d,e,f,3
+3:g,h,i,4
+4:j,k,l,5
+5:m,n,o,6
+6:p,q,r,s,7
+7:t,u,v,8
+8:w,x,y,z,9
+9:
+10:0
+11:

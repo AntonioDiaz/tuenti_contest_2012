@@ -1,0 +1,15 @@
+//Text representationn of the tree.
+//Each line is a set of edges, the number of the line represents the id of the node.
+//There are tree types of edges: Horizontal, Vertical and Diagonal. The cost of the edge depens on the typte.
+0:1_H,3_V,4_D
+1:0_H,2_H,3_D,4_V,5_D
+2:1_H,4_D,5_V
+3:0_V,1_D,4_H,6_V,7_D
+4:0_D,1_V,2_D,3_H,5_H,6_D,7_V,8_D
+5:1_D,2_V,4_H,7_D,8_V
+6:3_V,4_D,7_H,9_V,10_D
+7:3_D,4_V,5_D,6_H,8_H,9_D,10_V,11_D
+8:4_D,5_V,7_H,10_D,11_V
+9:6_V,7_D,10_H
+10:6_D,7_V,8_D,9_H,11_H
+11:7_D,8_V,10_H
